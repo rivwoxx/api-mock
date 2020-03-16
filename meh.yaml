@@ -1,0 +1,84 @@
+swagger: "2.0"
+info:
+  description: Yo no soy el hijo de Hernandez!
+  version: "1.0"
+  title: CUARTETO DE NOS
+consumes:
+  - application/json
+produces:
+  - application/json
+
+basePath: /api
+
+# Paths supported by the server application
+paths:
+  /account:
+    get:
+      operationId: moop.get_dat
+      tags:
+        - Cuenta
+      summary: y no pueden tolerar que nos resbale el poder
+      description: the accounts
+      responses:
+        200:
+          description: Successful read accounts list operation
+          schema:
+            type: array
+            items:
+              properties:
+                account:
+                  type: string
+                clabe:
+                  type: string
+                name:
+                  type: string
+                rfc:
+                  type: string
+                curp:
+                  type: string
+                sucursal:
+                  type: string  
+              example:          
+                account: "42441124012"
+                clabe: "013436424411240122"
+                name: "Augusto Carlos Rivera Gomez"
+                rfc: "RIGA9701127D0"
+                curp: "RIGA970112HDFVMG05"
+                sucursal: "m05"
+    post:
+      operationId: moop.new_ac
+      tags:
+        - Cuenta
+      summary: Create a new account
+      description: Create a new account
+      parameters:
+        - name: meh
+          in: body
+          description: somos su imagen mas real, lo que nunca esperaron ver
+          required: True
+          schema:
+            type: object
+            properties:
+                account:
+                  type: string
+                clabe:
+                  type: string
+                name:
+                  type: string
+                rfc:
+                  type: string
+                curp:
+                  type: string
+                sucursal:
+                  type: string
+            example:          
+              account: "11111111111"
+              clabe: "084743111111111115"
+              name: "David Japhet Mendoza Jimenez"
+              rfc: "MEJD660606F87"
+              curp: "MEJD660606HHGNIV05"
+              sucursal: "mi6"
+      responses:            
+        201:
+          description: Successfully created account in list
+

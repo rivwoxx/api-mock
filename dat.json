@@ -1,0 +1,93 @@
+{
+  "data":[
+    {
+        "account":"42441124012", 
+        "clabe":"013436424411240122",
+        "name":"Augusto Carlos Rivera Gomez",
+        "rfc":"RIGA9701127D0",
+        "curp":"RIGA970112HDFVMG05",
+        "sucursal":"m05"
+
+    },	
+    {
+        "account":"37369372327",
+        "clabe":"084743373693723275",
+        "name":"Pedro Rodriguez de la Vega",
+        "rfc":"ROVR400118ECA",
+        "curp":"RODR400118HMCDLI00",
+        "sucursal":"mi6"
+    },
+    {
+        "account":"46189766145",
+        "clabe":"076377461897661455",
+        "name":"Ricardo Rodriguez de la Vega",
+        "rfc":"ROVP4202147A6",
+        "curp":"RODP420214HMCDLD01",
+        "sucursal":"ci4"
+
+    },
+    {
+        "account":"90257394217",
+        "clabe":"025506902573942175",
+        "name":"Hector Alonso Rebaque" ,
+        "rfc":"AORH560205F35",
+        "curp":"AORH560205HMCLBC09",
+        "sucursal":"ns4"
+
+    },
+    {
+        "account":"50870919409",
+        "clabe":"049543508709194095",
+        "name":"Moises Solana Arciniega",
+        "rfc":"SOAM351226BG7",
+        "curp":"SOAM351226HMCLRI08",
+        "sucursal":"fb1"
+
+    },
+    
+    {
+        "account":"10647887381",
+        "clabe":"044949106478873815",
+        "name":"Esteban Manuel Gutierrez Gutierrez" ,
+        "rfc":"GUGE910805TR0",
+        "curp":"GUGE910805HNLTTS03",
+        "sucursal":"pe0"
+
+    },
+    {
+        "account":"29727227635",
+        "clabe":"065159297272276355",
+        "name":"Sergio Michel Perez Mendoza",
+        "rfc":"PEMS900126554",
+        "curp":"PEMS900126HJCRNR07",
+        "sucursal":"sm9"
+
+    },
+    {
+        "account":"33511355132",
+        "clabe":"078872335113551325",
+        "name":"Fernando Alonso Diaz",
+        "rfc":"AODF8107297K5",
+        "curp":"AODF810729HMCLIR07",
+        "sucursal":"mg0"
+
+    },
+    {
+        "account":"95867742349",
+        "clabe":"009385958677423493",
+        "name":"Pedro Martinez de la Rosa",
+        "rfc":"MARP710224UXA",
+        "curp":"MADP710224HMCRLD04",
+        "sucursal":"fb1"
+
+    },
+    {
+        "account":"74765220063",
+        "clabe":"002834747652200631",
+        "name":"Guadalupe Rincon Segovia",
+        "rfc":"RISG9005094E8",
+        "curp":"RISG900509MDGIGD00",
+        "sucursal":"ci4"
+    }
+]
+}
