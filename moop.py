@@ -1,21 +1,23 @@
-from flask import make_response, abort
+# from flask import make_response, abort
 import json
 
 with open ('dat.json','r') as f:
     # conts = f.readlines()
     ca = json.load(f)
     c = ca['data']
-
+# print(c)
 c1 = list(c)
 
 cuenta = {}
 a = 0
-for x in c1:
-    c2 = c1[a]['account']
+for x in c:
+    c2 = c[a]['account']
     # pepe = str(c1[a])
     cuenta[c2] = x
+    # print(cuenta)
     a = a + 1
 
+# print(cuenta)
 def get_dat(): 
     return [cuenta[key] for key in sorted(cuenta.keys())]
 
